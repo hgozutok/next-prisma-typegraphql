@@ -15,6 +15,7 @@ const prisma = new PrismaClient();
 const Home = ({companies}: InferGetServerSidePropsType<typeof getServerSideProps>) => {
 const comp:Company[] = companies;
   console.log(companies);
+  
   return (
     <div className={styles.container}>
       <Head>
