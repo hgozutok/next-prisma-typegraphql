@@ -13,7 +13,7 @@ const prisma = new PrismaClient();
 //export default function UserPage({ companies }: InferGetServerSidePropsType<typeof getServerSideProps>) {
 
 const Home = ({companies}: InferGetServerSidePropsType<typeof getServerSideProps>) => {
-  //const {companies}:Company[]=props.companies;
+ 
   console.log(companies);
   return (
     <div className={styles.container}>
