@@ -11,7 +11,7 @@ import { Key, ReactChild, ReactFragment, ReactPortal } from 'react';
 
 const prisma = new PrismaClient();
 //export default function UserPage({ companies }: InferGetServerSidePropsType<typeof getServerSideProps>) {
-
+//
 const Home = ({companies}: InferGetServerSidePropsType<typeof getServerSideProps>) => {
  
   console.log(companies);
